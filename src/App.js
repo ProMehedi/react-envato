@@ -1,8 +1,11 @@
+import { Container } from './App.style'
+import DataTable from './components/DataTable'
+
 const App = () => {
   return (
-    <div>
-      <h1>Envator Resources by Mehedi</h1>
-    </div>
+    <Container>
+      <DataTable />
+    </Container>
   )
 }
 
